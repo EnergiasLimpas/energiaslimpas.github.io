@@ -1,0 +1,226 @@
+html{
+    background: rgb(172, 172, 172);
+
+}
+body{
+    margin:0px;
+}
+.topo{
+    width: 10% ;
+    float:right;
+    background-color: tomato;
+    padding:0.5%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin:1% 0% 0.3% -1%;
+    text-align: center;
+    font-size: 17px; 
+    font-family: fantasy;
+}
+#menu{    
+    position: fixed;
+    width:100%;
+    z-index: 100;
+
+}
+.topo a{
+    text-decoration: none;
+    color:black
+}
+.topoul{
+    margin:0px;
+    list-style: none;
+
+}
+#capa {
+    background-image:url("Imagensdosite/renewable-1989416_960_720.webp");
+    height:400px;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 1% 0px 0px 0px;
+    color:rgb(241, 139, 4);
+    text-shadow: black 3px 2px;
+    text-align: center;
+    font-family: fantasy;
+    z-index: 10;
+
+}
+#introducao{
+    padding: 2%;
+    border-top: black solid 5px;
+
+}
+#introducao img{
+    width: 40%;
+}
+#er{
+    padding: 2%;
+    margin-bottom: 0px;
+
+}
+#er img{
+    width:90%;
+    padding-bottom: 5%;
+
+}
+#texto{
+    margin: 0px 0px 10px 3%;
+}
+#cd{
+    border-left: black solid 3px;
+    padding-left:4%;
+    margin-left:4%;
+}
+#cd img{
+    width:100% ;
+}
+#projeto{
+    position:relative;
+    padding-bottom: 3%;
+}
+#projeto img{
+    width: 100%;
+}
+#lng{
+    margin-bottom: 4.8%;
+}
+#edl{
+    padding-left: 1.9%;
+}
+#fin{
+    padding:2%;
+    text-indent:2% 
+}
+footer{
+    background-color: tomato;
+    padding-left:30%;
+    padding-right:30%;
+    float:left;
+    font-weight: bolder;
+}
+.ee{
+    padding-bottom: 6%
+}
+.ef{
+    padding-top:9%
+}
+.cinza{
+    background-color:rgba(255, 251, 251, 0.76);
+}
+.amarelo{
+    background-color: rgb(255, 237, 203);
+}
+ul{
+    list-style: decimal;
+    font-size: 20px;
+}
+h1{
+    font-size:50;
+    margin: 5.5% 0% 0% 0%;
+    letter-spacing: 3%;
+
+}
+h2{
+    font-size: 40px;
+    border-top: black solid 5px;
+    margin: 1% 30% 1% 30%;
+    color:rgb(226, 130, 5);
+}
+h3{
+    font-family: serif;
+    font-size: 25px
+}
+p{
+    padding: 0% 0% 0% 0px;
+    font-family: serif;
+    font-size: 130%;
+}
+.colado{
+    padding-left: 3.9%;
+}
+#link{
+    text-decoration: none;
+    font-size: 30px;
+    color:rgb(184, 124, 33);
+    text-shadow: black 3px 2px;
+    padding: 0.4%;
+    border: black solid 2px;
+    border-radius: 10px;
+}
+
+.justificado{
+    text-align: justify;
+}
+.central{
+    padding-left: 45%;
+}
+.coluna{
+    float: left;
+    padding: 0px 1%;
+}
+.duas{
+    width: 40%;
+    margin: 0% 3% 0% 3%;
+}
+.tres{
+    width: 28%;
+    margin: 0 1%;
+}
+.quatro{
+    width: 18%;
+    padding:3%
+}
+.topo:hover{
+    background-color:orange
+}
+#link:hover{
+    background-color: rgba(75, 65, 65, 0.767);
+}
+@media screen and (max-width:780px){
+    .coluna, .duas,.tres, .quatro{
+        display:block;
+        width:96%;
+    }
+    .tres{
+        margin:0px;
+        background-size:cover ;
+    }
+    #projeto{
+        width:98%
+    }
+    #cd{
+        border-left:hidden;
+        margin: 0px 0px 10px 3%;
+        padding:0px 1%
+    }
+    #capa{
+        height:300px
+    }
+    .esconder{
+        display: none;
+    }
+    h1{
+        font-size:250%
+    }
+    h2{
+        font-size:190%
+    }
+    #link{
+        font-size:25px
+    }
+    .topo{
+        width: 20%;
+        padding:1%;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+    }
+    footer{
+        padding:0px 10% 0px 10%
+    }
+}
+@media screen and (min-width:781px) and (max-width:1020px){
+    .topo{
+        width: 12%;
+    }
+}
+
